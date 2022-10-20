@@ -1,0 +1,25 @@
+#conteudo{
+    float:right;
+    width:100%
+}
+img{
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    width:50%
+}
+figure{
+    border:0 dotted gray;
+    display:inline-block;
+    margin:20px
+}
+figure img{
+    vertical-align:top
+}
+figure figcaption{
+    border:1px dotted blue;
+    text-align:center
+}
+aside p,h1{
+    text-align:center
+}

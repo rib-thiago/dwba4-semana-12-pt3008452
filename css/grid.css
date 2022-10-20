@@ -1,0 +1,11 @@
+.grid-container{
+    display:inline-grid;
+    grid-template-columns:auto auto
+}
+.grid-item{
+    background-color:hsla(0,0%,100%,.8);
+    border:0 solid rgba(0,0,0,.8);
+    font-size:12px;
+    padding:0;
+    text-align:center
+}
