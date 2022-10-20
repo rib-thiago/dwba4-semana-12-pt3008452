@@ -20,7 +20,7 @@ class Table extends React.Component {
 
   renderTableData() {
     return this.state.componentes.map((componente, index) => {
-      const { id, disciplina, carga, periodo } = componente //destructuring
+      const { id, disciplina, carga, periodo } = componente 
       return (
         <tr key={id}>
           <td>{disciplina}</td>
